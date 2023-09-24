@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'execute'}
+    agent {label 'nlp-slave'}
 
     environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
