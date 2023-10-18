@@ -1,6 +1,6 @@
 pipeline {
-    agent any
-	//{label 'nlp-slave'}
+    agent {label 'bast'}
+	
 
     environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
